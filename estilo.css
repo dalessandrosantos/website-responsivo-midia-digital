@@ -157,12 +157,13 @@ main .text-main {
         transform: translateX(-100%);
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-direction: column;
         transition: 0.3s ease-in;
         background-color: #5654b3;
     }
 
-    nav ul.ativo {
+    nav ul.active {
         transform: translateX(0);
     }
 
@@ -170,7 +171,7 @@ main .text-main {
         padding: 10px;
     }
 
-    nav ul a {
+    nav ul li a {
         font-size: 18px;
         color: white;
     }
